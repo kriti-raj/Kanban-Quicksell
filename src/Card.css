@@ -1,0 +1,159 @@
+.cardBox {
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    justify-content: left;
+    padding: 16px 12px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    gap: 8px;
+    filter: drop-shadow(0px 1px 3px rgba(189, 189, 189, 0.434));
+    min-width: 200px;
+}
+
+.cardId {
+    color: #6C7077;
+    font-size: 12px;
+    font-style: "normal";
+    font-weight: 400;
+    line-height: "normal";
+}
+
+.cardTitle {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.lowerBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-radius: 8px;
+    gap: 8px;
+    align-items: center;
+}
+
+.userImg {
+    width: 36px;
+    height: 36px;
+}
+
+.tagImg {
+    max-height: 8px;
+    max-width: 8px;
+}
+
+.priorityImg {
+    max-height: 14px;
+    max-width: 18px;
+}
+
+.tagText {
+    font-size: 10px;
+    font-style: "normal";
+    font-weight: 400;
+    line-height: "normal";
+    padding-bottom: 1.5px;
+    padding-left: 2px;
+}
+
+.tagBox {
+    display: flex;
+    box-sizing: border-box;
+    padding: 3.5px 5px;
+    align-items: center;
+    height: 19px;
+    gap: 2px;
+    font-size: 9px;
+    background-color: white;
+    border-radius: 3px;
+    filter: drop-shadow(0px .5px .5px rgb(135, 135, 135));
+}
+
+.priorityBox {
+    display: flex;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    justify-content: center;
+    margin-bottom: 1px;
+    align-items: center;
+    border-radius: 3px;
+    filter: drop-shadow(0px 1px 3px rgba(189, 189, 189, 0.434));
+}
+
+.cardBoxrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardBoxin {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-radius: 8px;
+    gap: 8px;
+    min-width: 100px;
+}
+
+.availableUser {
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 21px;
+    margin-top: -12px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.notavailableUser {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(166, 166, 166);
+    border-radius: 50%;
+    position: relative;
+    margin-left: 21px;
+    margin-top: -12px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.cardTitle img {
+    width: 12px;
+    height: 12px;
+    padding-top: 2px;
+    padding-right: 8px;
+}
+
+@media screen and (max-width:600px) {
+    .cardBox {
+        width: 350px;
+    }
+    
+    .cardTitle {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        color: #000000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: -webkit-fill-available;
+    }
+    
+    .cardBoxin {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        border-radius: 8px;
+        gap: 8px;
+    }
+}

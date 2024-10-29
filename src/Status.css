@@ -1,0 +1,95 @@
+.headingImg{
+    height: 12px;
+}
+.headingImg2{
+    height: 28px;
+}
+.boardHeading{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    gap: 12px;
+    padding: 6px 12px;
+    width: auto;
+}
+.Boards{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+}
+.Board{
+    width: 280px;
+    min-width: 280px;
+}
+.cText{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+}
+#pluske{
+    margin-left: auto;
+    gap: 4px;
+}
+.Cards{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+}
+.topBar{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(138, 138, 138, 0.15);
+}
+.randombar{
+    background-color: white;
+    padding: 20px 0 20px 40px;
+    min-width: 1200px;
+}
+.optionsImg{
+    height: 18px;
+    padding: 2px 10px 2px 6px;
+}
+.optionsImg2{
+    height: 18px;
+    padding: 2px 2px 2px 4px;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    background: none;
+    cursor: pointer;
+}
+.availableUsernew{
+    height: 12px;
+    width: 12px;
+    background-color: #4BB543;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+@media screen and (max-width:600px) {
+    .Boards{
+        flex-direction: column;
+        padding: 20px 30px;
+        gap: 6px;
+    }
+    .boardHeading{
+        width: 350px;
+    }
+    .randombar{
+        min-width: 300px;
+        width: 100vw;
+    }
+    .Board{
+        min-width: 300px;
+    }
+    .cardBox{
+        max-width: 400px;
+    }
+}
