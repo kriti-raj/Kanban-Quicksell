@@ -145,7 +145,7 @@ src/
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
 ## 👏 Acknowledgments
 
@@ -155,4 +155,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📞 Support
 
-For support, email your-email@example.com or open an issue in the repository.
+For support, email 6517kritiraj@gmail.com or open an issue in the repository.
